@@ -1,0 +1,10 @@
+[package]
+name = 'examplerust'
+version = '0.1.0'
+edition = '2018'
+
+[lib]
+crate-type = [ 'staticlib' ]
+
+[dependencies]
+extendr-api = {version = '0.3.1', features = ["ndarray"]}
